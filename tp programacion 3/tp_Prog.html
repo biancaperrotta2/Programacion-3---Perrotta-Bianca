@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 100px;
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        tfoot{
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ENCABEZADO PRINCIPAL (ORGANIZACION E INDICE DE LA PÁGINA) -->
+    <header>
+        <H2>Encabezado Principal - Indice</H2>
+        <nav>
+            <ul>
+                <li><a href="#Estructura">Ir a Estructura </a></li>
+                <li><a href="#Encabezados"> Ir a Encabezados </a></li>
+                <li><a href="#Divisiones"> Ir a Divisiones </a></li>
+                <li><a href="#Enlaces"> Ir a Enlaces</a></li>
+                <li><a href="#Multimedia">Ir a Elementos Multimedia</a></li>
+                <li><a href="#tTablas">Ir a Tablas</a></li>
+                <li><a href="#Formularios">Ir a Formularios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Ejercicio 4.1 -->
+     <section>
+        <h3 id = "Estructura"> 1. Estructura Básica del Documento HTML</h3>
+        <p> Este documento HTML tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetas de metadatos y un título.</p>
+     </section>
+    
+    <!-- Ejercicio 4.2 -->
+     <section>
+        <h3 id = "Encabezados"> 2. Encabezados y Propiedades del Texto</h3>
+        <p> <b>Este es un texto en negrita.</b> </p>
+        <p> <em>Este es un texto en cursiva.</em> </p>
+        <p> <u>Este es un texto subrayado.</u> </p>
+     </section>
+  
+    <!-- Ejercicio 4.3 -->
+     <section>
+        <h3 id = "Divisiones"> 3. Divisiones y Agrupación de Contenido </h3>
+
+        <div>
+            <h4> Sección 1 </h4>
+            <p> Contenido de la primera sección agrupara en un div.</p>
+        </div>
+    
+        <div>
+            <h4> Sección 2 </h4>
+            <p>Contenido de la segunda sección agrupada en un div.</p>
+        </div>
+     </section>
+
+    <!-- Ejercicio 4.4 -->
+     <section>
+        <h3 id ="Enlaces"> 4. Enlaces y Listas</h3>
+        <nav>
+            <p> Visita <a href="https://www.google.com" target="_blank"> Google</a> para más información <br>Enlaces internos: </p>
+            <ul>
+                <li> <a href="#Estructura">Ir a Estructura </a></li>
+                <li> <a href="#Encabezados"> Ir a Encabezados </a></li>
+                <li> <a href="#Divisiones"> Ir a Divisiones </a></li>
+            </ul>
+        </nav>
+        
+        <p>Lista ordenada:</p>
+        <ol>
+            <li>Primer ítem de una lista ordenada</li>
+            <li>Segundo ítem de una lista ordenada</li>
+        </ol>
+     </section>
+
+    <!-- Ejercicio 4.5 -->
+     <section>
+        <h3 id = "Multimedia">5. Elementos Multimedia</h3>
+        <aside>
+           <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-930x487.jpg" width="200px" height="200px" alt="Es una imagen">
+           <video src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4" controls width="400px" height="400px"> </video>
+          <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls autoplay></audio>
+        </aside>
+     </section>
+
+    <!-- Ejercicio 4.6 -->
+     <section>
+        <h3 id = "tTablas"> 6. Tablas </h3>
+        <table>
+           <thead>
+               <th>Columna 1</th>
+               <th>Columna 2</th>
+           </thead>
+           <tbody>
+               <tr>
+                   <td> Dato 1</td>
+                   <td> Dato 2</td>
+               </tr>
+               <tr>
+                   <td> Dato 3</td>
+                   <td> Dato 4</td>
+               </tr>
+           </tbody>
+        </table>
+     </section>
+
+     <!-- Ejercicio 4.7 -->
+      <section>
+        <h3 id="Formularios">7. Formularios</h3>
+        <form>
+          <label>Nombre:</label>
+          <input type="nombre">
+          <label>Email:</label>
+          <input type="email" placeholder="ejemplo@ejemplo.com">
+          <label>Mensaje:</label>
+          <textarea placeholder=""></textarea>
+          <button>Enviar
+          </button>
+        </form>
+      </section>
+
+      <footer>
+        <p> Bianca Perrotta - 2024 - Trabajo HTML - UTN</p>
+      </footer>
+</body>
+</html>
